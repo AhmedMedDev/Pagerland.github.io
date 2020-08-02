@@ -1,0 +1,38 @@
+//Start Global Extends
+%cover {
+    background-size: cover
+}
+%raleway {
+    font-family: raleway;
+}
+%open-sans {
+    font-family: 'Open Sans';
+}
+%Russo {
+    font-family: 'Russo One';
+}
+%Monsterrat {
+    font-family: "Montserrat";
+}
+%transition {
+    @include prefixer (transition, all .4s ease-in-out, webkit moz ms o)
+}
+%align-items-center {
+    @include prefixer (align-items, center, webkit moz ms o);
+}
+%justify-content {
+    @include prefixer (justify-content, center, webkit moz ms o);
+}
+
+%flex-column {
+    @include prefixer (flex-direction, column, webkit moz ms o);
+}
+//End Global Extends
+
+//Main Section
+%mainSection {
+    padding: 100px 0 0;
+}
+%border-circle {
+    @include prefixer (border-radius, 50%, webkit moz ms o);
+}

@@ -1,0 +1,36 @@
+/*Start Buttons*/
+.btn {
+    padding: 12px 47px;
+    color: white;
+    border: 0;
+    border-radius: 55px;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-size: 15px;
+    transition: all .2s ease-in-out;
+    &:hover {
+        color: white;
+    }
+}
+.id-first-btn {
+    background-color: $id-first-color !important;
+    &:hover {
+        background-color: lighten($id-first-color,  12%) !important;
+    }
+    
+}
+.id-second-btn {
+    background-color: $id-second-color;
+     &:hover {
+        background-color: lighten($id-second-color,  12%) !important;
+    }
+    
+}
+.id-third-btn {
+    background-color: $id-third-color;
+     &:hover {
+        background-color: lighten($id-third-color,  12%) !important;
+    }
+    
+}
+/*End Buttons*/
